@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bungee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dummy-signature {
+  font-family: "Allura", cursive;
+}
+
+.title-bold {
+  font-family: "Bungee", sans-serif;
+}
+
+.title {
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  font-size: calc(1rem * var(--bfso, 1));
+  font-family: "Poppins", sans-serif;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out 1s forwards;
+  background: #232323;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+html {
+  zoom: var(--rzf, 1);
+  font-size: max(calc(min(var(--1vw, 1vw), 13.66px) * var(--rfso, 1)), var(--minfs, 0px));
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+
+  .flexCenter {
+    @apply flex items-center justify-center;
+  }
+
+  .flexBetween {
+    @apply flex items-center justify-between;
+  }
+
+  .flexStart {
+    @apply flex items-center justify-start;
+  }
+
+  .flexEnd {
+    @apply flex items-center justify-end;
+  }
+
+  .flexAround {
+    @apply flex items-center justify-around;
+  }
+
+  .flexColStart {
+    @apply flex flex-col items-start justify-center
+  }
+
+  .flexColCenter {
+    @apply flex flex-col items-center justify-center
+  }
+
+  .flexColEnd {
+    @apply flex flex-col items-end justify-center
+  }
+
+  .flexColBetween {
+    @apply flex flex-col items-center justify-between
+  }
+
+
+}
+
+#hero::after {
+  content: '';
+  position: absolute;
+  top: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, hsla(0, 2%, 12%, 0.2),
+      transparent 64%);
+  z-index: 0;
+  animation: light 2s linear infinite;
+}
+
+
+.about_title2::after {
+  content: '';
+  height: 300px;
+  width: 300px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  z-index: 2;
+}
+
+
+@media (max-width: 767px) {
+  body {
+    zoom: 50%;
+
+  }
+}
+
+/* @media (max-width: 967px) {
+  body {
+    zoom: 50%;
+  }
+} */
