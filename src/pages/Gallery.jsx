@@ -6,7 +6,7 @@ import { collection } from "../constants";
 const Gallery = () => {
   return (
     <>
-      <Section id="" variant="bg-[#121212] -mt-20  bg-gray-200 z-[15]">
+      <Section id="gallery" variant="bg-[#121212] -mt-20  bg-gray-200 z-[15]">
         <Container variant="border-t-[3px] border-red-500 py-14">
           <div className="w-full flexBetween mb-12">
             <h1 className="text-[#232323] text-[7rem] md:text-4xl font-bold">

@@ -8,7 +8,7 @@ const Header = () => {
         <h1 className="title-bold text-red-500 text-[10rem] md:text-4xl font-bold ">
           K<span className="dummy-signature text-gray-300">Combs</span>
         </h1>
-        <ul className="flexCenter gap-12">
+        <ul className="relative z-[99] flexCenter gap-20 md:gap-12">
           {navlinks.map(({ label, url }, index) => {
             return (
               <li key={index}>

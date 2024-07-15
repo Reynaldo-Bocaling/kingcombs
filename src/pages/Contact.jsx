@@ -7,7 +7,7 @@ import Social from "../components/Social";
 const Contact = () => {
   return (
     <>
-      <Section id="" variant="bg-gray-300  border- z-[20]">
+      <Section id="contact" variant="bg-gray-300  border- z-[20]">
         <Container variant="border-t-[3px] border-red-500 ">
           <div className="contact_title relative flexCenter">
             <h1 className=" relative  title-bold text-[40rem] md:text-[20rem]  text-[#121212] z-[7] bg-rd-500">
@@ -16,7 +16,7 @@ const Contact = () => {
             <div className="h-[200px] w-[200px] md:h-[300px] md:w-[300px] bg-red-500 rounded-full absolute top-0 right-20"></div>
           </div>
         </Container>
-        <div className="relative h-[550px] bg-[#121212] -mt-[19rem] md:-mt-40 ">
+        <div className="relative h-[550px] bg-[#121212] -mt-[19rem] md:-mt-40 overflow-hidden">
           <div className="absolute top-40 left-10">
             <Title />
           </div>

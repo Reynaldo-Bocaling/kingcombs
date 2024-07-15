@@ -6,7 +6,7 @@ import { GoDotFill } from "react-icons/go";
 const About = () => {
   return (
     <>
-      <Section id="" variant="relative bg-gray-200 -mt-28 h-[d20px] z-[9]">
+      <Section id="about" variant="relative bg-gray-200 -mt-28 h-[d20px] z-[9]">
         <Container variant="flexColCenter">
           <div className="about_title relative ">
             <h1 className=" relative  title-bold text-[45rem] md:text-[20rem] -translate-y-[20rem] md:-translate-y-40 text-[#121212] z-[7] bg-rd-500">
