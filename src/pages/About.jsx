@@ -58,12 +58,12 @@ const About = () => {
               <img
                 src="/img/about2.jpg"
                 alt=""
-                className="w-full md:w-[600px] h-[400px] relative z-[10] border-[5px] border-white"
+                className="w-full md:w-[600px] h-[400px] relative z-[10] border-[5px] border-white pointer-events-none"
               />
               <img
                 src="/img/about2.jpg"
                 alt=""
-                className="w-full md:w-[600px] h-[400px] absolute  z-[8] left-5 top-10 -rotate-6 border-[5px] border-white"
+                className="w-full md:w-[600px] h-[400px] absolute  z-[8] left-5 top-10 -rotate-6 border-[5px] border-white pointer-events-none"
               />
             </div>
           </div>

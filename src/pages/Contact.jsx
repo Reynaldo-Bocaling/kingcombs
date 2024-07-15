@@ -32,7 +32,7 @@ const Contact = () => {
           <img
             src="/img/contact.png"
             alt=""
-            className="w-full md:max-w-2xl mx-auto opacity-30"
+            className="w-full md:max-w-2xl mx-auto opacity-30 pointer-events-none"
           />
           <div className="h-[150px] w-[150px] md:h-[300px] md:w-[300px] bg-red-500 rounded-full absolute -bottom-28 -left-28"></div>
         </div>

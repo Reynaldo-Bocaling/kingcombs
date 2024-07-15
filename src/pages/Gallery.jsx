@@ -29,7 +29,7 @@ const Gallery = () => {
                 key={index}
                 src={item}
                 alt=""
-                className="border-[2px] border-[#232323] relative z-[15] "
+                className="border-[2px] border-[#232323] relative z-[15] pointer-events-none"
               />
             ))}
           </div>

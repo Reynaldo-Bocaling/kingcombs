@@ -16,7 +16,7 @@ const Hero = () => {
           <img
             src="/img/hero.png"
             alt=""
-            className="max-w-[700px] w-full relative z-[99]"
+            className="max-w-[700px] w-full relative z-[99] pointer-events-none"
           />
           <p className="text-[4rem] md:text-base text-gray-300 tracking-wider mt-4 absolute left-14 top-32 max-w-5xl md:max-w-sm z-[20]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
@@ -25,7 +25,7 @@ const Hero = () => {
           </p>
           <img
             src="/img/hero_float.png"
-            className="absolute -left-20 bottom-10 opacity-[0.06] z-[4]"
+            className="absolute -left-20 bottom-10 opacity-[0.06] z-[4] pointer-events-none"
             alt=""
           />
         </div>
